@@ -1,5 +1,7 @@
 name: ThinkStats2
-
+channels:
+  - defaults
+  - conda-forge
 dependencies:
   - python=3.7
   - jupyter
@@ -10,6 +12,8 @@ dependencies:
   - pytables
   - scipy
   - scikit-learn
+  - plotly
+  - cufflinks-py
   - pip
   - pip:
     - .
